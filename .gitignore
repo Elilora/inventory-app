@@ -8,7 +8,7 @@
 
 # Ignore Firebase configuration file
 #firebase.js
-.env.local
+#.env.local
 
 # testing
 /coverage
