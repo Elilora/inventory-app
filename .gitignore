@@ -7,7 +7,8 @@
 .yarn/install-state.gz
 
 # Ignore Firebase configuration file
-firebase.js
+#firebase.js
+.env.local
 
 # testing
 /coverage
