@@ -61,10 +61,13 @@ export default function Home() {
   const handleClose = () => setOpen(false)
 
   return (
-    <Box width ='100vw' heoght ='100vw' display='flex' flexDirection='column' justifyContent='center' alignItems='center' gap={2}>
-      <Box>
-         <Typography variant ='h2'>Inventory Management App</Typography>
-      </Box>
+    <Box width ='100vw' height ='100vw' display='flex' flexDirection='column' justifyContent='center' alignItems='center' gap={2}
+    style={{
+      backgroundImage: 'url(inventory-app/Background.png',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}>
+      
       <Modal open={open} onClose={handleClose}>
           <Box position ='absolute' top='50%' left='50%'  width ={400} bgcolor='white' 
           border ='2px solid #000' boxShadow={24} p={4} display='flex' flexDirection='column' 

@@ -6,6 +6,9 @@
 .pnp.js
 .yarn/install-state.gz
 
+# Ignore Firebase configuration file
+firebase.js
+
 # testing
 /coverage
 
